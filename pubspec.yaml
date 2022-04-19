@@ -1,0 +1,77 @@
+name: credit_card_wallet
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  dart_utils:
+    git:
+      url: https://github.com/emanuelnlopez/dart-utils
+      ref: master
+  dartz: ^0.10.1
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_secure_storage: ^5.0.2
+  flutter_windowmanager: ^0.2.0
+  intl: ^0.17.0
+  json_class: ^2.1.2+4
+  logging: ^1.0.2
+  path_provider: ^2.0.9
+  pointycastle: ^3.5.2
+  provider: ^6.0.2
+  sembast: ^3.2.0
+
+dependency_overrides:
+  dart_utils:
+    path: ../dart-utils
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  intl_utils: ^2.6.1
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+flutter_intl:
+  class_name: AppLocalizations
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
