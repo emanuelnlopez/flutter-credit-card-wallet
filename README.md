@@ -8,7 +8,12 @@ I'm currently using Mercado Pago and YPF's app as my default wallets for paying 
 
 Having this data stored in my mobile allows me to continue using my cards without carrying them all the time with me.
 
-All the data is stored encrypted in the local storage and the app doesn't require internet access at all.
+## Security measurements
+- All the data is stored encrypted in the local storage using AES encryption
+- It's planned that the app will request the key for the AES encryption on the first run so each user has unique keys
+- The app doesn't require internet access at all.
+- App screenshots and app switcher preview will be disabled in the final release
+- Card data will be visible one at a time. It won't be possible to see all the information at once
 
 ## Screenshots
 
