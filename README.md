@@ -14,6 +14,7 @@ Having this data stored in my mobile allows me to continue using my cards withou
 - The app doesn't require internet access at all.
 - App screenshots and app switcher preview will be disabled in the final release
 - Card data will be visible one at a time. It won't be possible to see all the information at once
+- The app will report if it detects that it is running on a rooted device
 
 ## Screenshots
 
